@@ -1,0 +1,17 @@
+#Pareto Distribution
+#A distribution following Pareto's law i.e. 80-20 distribution (20% factors cause 80% outcome).
+
+#It has two parameter:
+
+#a - shape parameter.
+
+#size - The shape of the returned array.
+-------------------------------------------------------------------------------------------------------------------------------------
+from numpy import random
+
+x = random.pareto(a=2, size=(2, 3))
+
+print(x)
+------------------------------------------------------------------------------------------------------------------------------------
+[[0.08736667 0.88341288 1.40792125]
+ [1.45638062 0.08110586 1.2534067 ]]
