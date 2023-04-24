@@ -1,0 +1,12 @@
+#Truncation
+#Remove the decimals, and return the float number closest to zero. Use the trunc() and fix() functions
+
+--------------------------------------------------------------------------------------------------------------------
+import numpy as np
+
+arr = np.trunc([-3.1666, 3.6667])
+
+print(arr)
+
+-------------------------------------------------------------------------
+[-3.  3.]
