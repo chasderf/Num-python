@@ -1,0 +1,15 @@
+#Remainder
+#Both the mod() and the remainder() functions return the remainder of the values in the first array corresponding to the values in the second array, 
+#and return the results in a new array.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+import numpy as np
+
+arr1 = np.array([10, 20, 30, 40, 50, 60])
+arr2 = np.array([3, 7, 9, 8, 2, 33])
+
+newarr = np.mod(arr1, arr2)
+
+print(newarr)
+------------------------------------------------------------------------------
+[ 1  6  3  0  0 27]
